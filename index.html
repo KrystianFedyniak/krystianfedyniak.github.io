@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Федыняк Крыстиан - Portfolio</title>
+    <meta name="description" content="Портфолио Web-разработчика: Федыняк Крыстиан, навыки, проекты, опыт, контакты. Анимированный градиент, glassmorphism, адаптивность.">
+    <meta name="keywords" content="Портфолио, Fullstack, HTML, CSS, JavaScript, создание сайтов, программист, Федыняк Крыстиан, опыт, навыки, контакты">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <img src="apple-touch-icon.png" alt="Logo" width="32" height="32" style="display:block;border-radius:8px;" />
+                </div>
+                <span class="logo-text">
+                    <span class="logo-main">Федыняк Крыстиан</span>
+                    <span class="logo-sub">Portfolio</span>
+                </span>
+            </div>
+            
+            <div class="nav-center">
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link" data-text="Главная">
+                            <span class="nav-icon">🏠</span>
+                            <span class="nav-text">Главная</span>
+                            <div class="nav-indicator"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" data-text="О себе">
+                            <span class="nav-icon">👨‍💻</span>
+                            <span class="nav-text">О себе</span>
+                            <div class="nav-indicator"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skills" class="nav-link" data-text="Навыки">
+                            <span class="nav-icon">⚡</span>
+                            <span class="nav-text">Навыки</span>
+                            <div class="nav-indicator"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link" data-text="Проекты">
+                            <span class="nav-icon">🚀</span>
+                            <span class="nav-text">Проекты</span>
+                            <div class="nav-indicator"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#certificates" class="nav-link" data-text="Сертификаты">
+                            <span class="nav-icon">🎓</span>
+                            <span class="nav-text">Сертификаты</span>
+                            <div class="nav-indicator"></div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link" data-text="Контакты">
+                            <span class="nav-icon">📧</span>
+                            <span class="nav-text">Контакты</span>
+                            <div class="nav-indicator"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="hamburger">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu">
+            <div class="mobile-menu-content">
+                <div class="mobile-nav-links">
+                    <a href="#home" class="mobile-nav-link">
+                        <span class="mobile-icon">🏠</span>
+                        <span>Главная</span>
+                    </a>
+                    <a href="#about" class="mobile-nav-link">
+                        <span class="mobile-icon">👨‍💻</span>
+                        <span>О себе</span>
+                    </a>
+                    <a href="#skills" class="mobile-nav-link">
+                        <span class="mobile-icon">⚡</span>
+                        <span>Навыки</span>
+                    </a>
+                    <a href="#projects" class="mobile-nav-link">
+                        <span class="mobile-icon">🚀</span>
+                        <span>Проекты</span>
+                    </a>
+                    <a href="#certificates" class="mobile-nav-link">
+                        <span class="mobile-icon">🎓</span>
+                        <span>Сертификаты</span>
+                    </a>
+                    <a href="#contact" class="mobile-nav-link">
+                        <span class="mobile-icon">📧</span>
+                        <span>Контакты</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Animated Background -->
+    <div class="mesh-gradient"></div>
+    <div class="animated-bg">
+        <div class="particle particle-1"></div>
+        <div class="particle particle-2"></div>
+        <div class="particle particle-3"></div>
+        <div class="particle particle-4"></div>
+        <div class="particle particle-5"></div>
+        <div class="particle particle-6"></div>
+        <div class="particle particle-7"></div>
+        <div class="particle particle-8"></div>
+        <div class="particle particle-9"></div>
+        <div class="particle particle-10"></div>
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+        <div class="floating-element floating-element-1"></div>
+        <div class="floating-element floating-element-2"></div>
+        <div class="floating-element floating-element-3"></div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-wrap">
+          <div class="hero-inner">
+            <div class="hero-content hero-card glass-card animate-on-scroll animate">
+              <h1 class="hero-title">
+                <span class="title-line">Привет! Я — <span class="accent">Крыстиан</span></span>
+              </h1>
+              <p class="hero-desc">Помогаю бизнесу расти с помощью быстрых, удобных и красивых веб‑приложений. От идеи и прототипа до релиза и поддержки.</p>
+
+              <div class="hero-badges">
+                <span class="badge icon"><img src="assets/react.svg" alt="React"><span>React</span></span>
+                <span class="badge icon"><img src="assets/uiux.svg" alt="UI/UX"><span>UI/UX</span></span>
+                <span class="badge icon"><img src="assets/adaptive.svg" alt="Адаптивность"><span>Адаптивность</span></span>
+                <span class="badge icon"><img src="assets/wordpress.svg" alt="WordPress"><span>WordPress</span></span>
+                <span class="badge icon"><img src="assets/figma.svg" alt="Figma"><span>Figma</span></span>
+                <span class="badge icon"><img src="assets/git.svg" alt="Git"><span>Git</span></span>
+                <span class="badge icon"><img src="assets/quality.svg" alt="Качество"><span>Качество</span></span>
+                <span class="badge icon"><img src="assets/exp.svg" alt="Опыт"><span>10+ лет опыта</span></span>
+              </div>
+
+              <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary">Связаться</a>
+                <a href="assets/cv.pdf" class="btn btn-secondary" download>Скачать CV</a>
+                <span class="hint">Ответ в течение дня</span>
+              </div>
+
+              
+            </div>
+
+            <div class="hero-media">
+              <div class="hero-photo-wrap">
+                <img class="hero-photo" src="assets/hero-image.png" alt="Фото Крыстиана" loading="eager">
+                <div class="hero-glow" aria-hidden="true"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">О себе</h2>
+                <p class="section-subtitle">Страстный разработчик с опытом создания инновационных решений</p>
+            </div>
+            <div class="about-grid">
+                <aside class="about-profile glass-card" aria-labelledby="about-name">
+                    <div class="profile-avatar" aria-hidden="true">
+                        <div class="avatar-placeholder"></div>
+                    </div>
+                    <h3 id="about-name" class="profile-name">Кристиан Федыняк</h3>
+                    <div class="profile-role gradient-text">FullStack Web Developer</div>
+                    <div class="profile-metrics">
+                        <div class="metric">
+                            <span class="metric-value">10+</span>
+                            <span class="metric-label"> Лет опыта</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">100+</span>
+                            <span class="metric-label">Проектов</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-value">80+</span>
+                            <span class="metric-label">Клиентов</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-actions" aria-label="Социальные ссылки">
+                        
+                        <a class="action-btn whatsapp" href="https://wa.me/77713746154" target="_blank" rel="noopener" aria-label="WhatsApp" title="Написать в WhatsApp">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                            <path d="M20.52 3.48A11.94 11.94 0 0 0 12.06 0C5.51 0 .2 5.31.2 11.86c0 2.09.55 4.14 1.59 5.95L0 24l6.33-1.65a11.78 11.78 0 0 0 5.73 1.46h.01c6.55 0 11.86-5.31 11.86-11.86 0-3.17-1.23-6.15-3.41-8.47Zm-8.46 19.11h-.01a10 10 0 0 1-5.09-1.39l-.37-.22-3.76.98 1.01-3.66-.24-.38A9.96 9.96 0 0 1 2 11.86C2 6.42 6.42 2 11.86 2c2.64 0 5.12 1.03 6.99 2.9a9.84 9.84 0 0 1 2.91 6.96c0 5.44-4.42 9.86-9.7 9.86Zm5.49-7.41c-.3-.15-1.77-.87-2.05-.97-.27-.1-.47-.15-.66.15-.19.3-.76.97-.93 1.17-.17.2-.34.22-.64.07-.3-.15-1.28-.47-2.44-1.49-.9-.8-1.51-1.79-1.69-2.09-.17-.3-.02-.46.13-.61.13-.13.3-.34.45-.51.15-.17.2-.29.3-.49.1-.2.05-.37-.02-.52-.07-.15-.66-1.59-.91-2.18-.24-.58-.49-.5-.66-.51-.17-.01-.37-.01-.57-.01s-.52.08-.8.37c-.27.3-1.04 1.02-1.04 2.49 0 1.47 1.07 2.9 1.22 3.1.15.2 2.1 3.21 5.09 4.5.71.31 1.26.49 1.69.63.71.22 1.36.19 1.87.12.57-.09 1.77-.72 2.02-1.42.25-.7.25-1.29.17-1.42-.08-.13-.27-.2-.57-.35Z"/>
+                          </svg>
+                        </a>
+                        
+                        <a class="action-btn github" href="https://github.com/your-github" target="_blank" rel="noopener" aria-label="GitHub" title="Открыть GitHub">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                            <path d="M12 .5C5.73.5.98 5.25.98 11.52c0 4.86 3.15 8.98 7.51 10.43.55.1.75-.24.75-.54V19.7c-3.05.66-3.69-1.3-3.69-1.3-.5-1.25-1.22-1.58-1.22-1.58-.99-.67.07-.66.07-.66 1.1.08 1.69 1.13 1.69 1.13.98 1.68 2.56 1.2 3.18.92.1-.71.38-1.2.69-1.48-2.44-.28-5.01-1.22-5.01-5.44 0-1.2.43-2.19 1.14-2.96-.12-.28-.49-1.43.11-2.98 0 0 .92-.29 3.02 1.13.87-.24 1.81-.37 2.75-.37.93 0 1.88.13 2.75.37 2.1-1.42 3.01-1.13 3.01-1.13.61 1.55.23 2.7.12 2.98.71.77 1.14 1.76 1.14 2.96 0 4.23-2.58 5.16-5.03 5.43.39.34.74 1.02.74 2.06v3.05c0 .3.19.65.76.54 4.35-1.45 7.5-5.57 7.5-10.43C23.02 5.25 18.27.5 12 .5Z"/>
+                          </svg>
+                        </a>
+                        
+                        <a class="action-btn telegram" href="https://t.me/atures_666" target="_blank" rel="noopener" aria-label="Telegram" title="Открыть Telegram">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                            <path d="M9.04 15.55 8.88 20c.37 0 .54-.16.73-.35l1.76-1.69 3.65 2.68c.67.37 1.16.18 1.35-.62l2.45-11.49h.01c.22-1.01-.36-1.4-1.02-1.15L3.5 9.7c-.98.38-.96.93-.17 1.18l4.36 1.36 10.11-6.39c.48-.3.91-.13.55.17L9.04 15.55Z"/>
+                          </svg>
+                        </a>
+                        
+                        <a class="action-btn email" href="mailto:atures2014@gmail.com" aria-label="Email" title="Отправить письмо">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false">
+                            <path d="M20 4H4c-1.1 0-2 .9-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6c0-1.1-.9-2-2-2Zm0 4.24-7.2 4.5a1 1 0 0 1-1.06 0L4 8.24V6l8 5 8-5v2.24Z"/>
+                          </svg>
+                        </a>
+                    </div>
+                </aside>
+
+                <div class="about-right">
+                    <article class="story-card glass-card">
+                        <div class="card-badge">👍</div>
+                        <h3 class="card-title">Моя история</h3>
+                        <p class="card-text">Я начинал как обычный студент, который увлёкся программированием. За годы работы понял: важно не просто писать код, а создавать решения, которые действительно помогают людям. Каждый проект для меня — возможность сделать чью-то жизнь или работу немного лучше.</p>
+                    </article>
+
+                    <section class="principles-card glass-card" aria-labelledby="principles-title">
+                        <div class="card-badge">⭐</div>
+                        <h3 id="principles-title" class="card-title">Принципы работы</h3>
+                        <div class="principles-list">
+                            <div class="principle-item">
+                                <span class="principle-icon">✅</span>
+                                <span class="principle-text">Код должен быть понятным и поддерживаемым</span>
+                            </div>
+                            <div class="principle-item">
+                                <span class="principle-icon">✅</span>
+                                <span class="principle-text">Клиент понимает, как и зачем всё устроено</span>
+                            </div>
+                            <div class="principle-item">
+                                <span class="principle-icon">✅</span>
+                                <span class="principle-text">Результатом можно гордиться</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            
+            <!-- Full-width Collaboration CTA -->
+            <div class="about-cta-full">
+                <div class="cta-card glass-card">
+                    <div class="cta-status"><span class="status-dot"></span> Доступен для новых проектов</div>
+                    <h3 class="cta-title">Готов к сотрудничеству</h3>
+                    <p class="cta-subtitle">Если вам нужен разработчик, который не просто пишет код, а думает о пользователях и будущем проекта — буду рад поработать вместе.</p>
+                    <div class="cta-chips">
+                        <span class="chip">💬 Честный диалог</span>
+                        <span class="chip">⚡ Ответственный подход</span>
+                        <span class="chip">📈 Постоянное развитие</span>
+                    </div>
+                    <div class="cta-actions">
+                        <a href="#contact" class="btn btn-primary cta-button">Обсудить проект ↗</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Навыки</h2>
+            </div>
+
+            <div class="skills-tiles">
+                <div class="skill-tile glass-card" data-tip="Стандарты разметки и семантика">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg html5"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#ff6a00"/><stop offset="100%" stop-color="#ff9a3c"/></linearGradient></defs><rect rx="14" ry="14" width="64" height="64" fill="url(#g1)" opacity="0.25"/><path fill="#ff6a00" d="M12 10h40l-3.5 39L32 58l-16.5-9L12 10z" opacity="0.6"/><path fill="#fff" d="M20 18h24l-2.4 27.3L32 49l-9.6-3.7L20 18zm4.4 6l.3 3h14.7l-.3 3H25.1l.6 6.6 6.3 2.4 6.3-2.3.4-4h-5.8v-3H38l-.9 10.2L32 40.9l-5.2-2L25.9 30H24v-6h.4z"/></svg>
+                    </div>
+                    <span class="skill-name">HTML5</span>
+                </div>
+                <div class="skill-tile glass-card" data-tip="Адаптивные стили, препроцессоры">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg css3"><defs><linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#0ea5e9"/><stop offset="100%" stop-color="#6366f1"/></linearGradient></defs><rect rx="14" ry="14" width="64" height="64" fill="url(#g2)" opacity="0.25"/><path fill="#0ea5e9" d="M12 10h40l-3.5 39L32 58l-16.5-9L12 10z" opacity="0.6"/><path fill="#fff" d="M20 18h24l-2.6 27.5L32 49l-9.4-3.5L20 18zm20 6H24l.2 3h15.4l-.3 3H24.6l.5 6.3 6.9 2.5 6.5-2.5.3-3.5h-6.2v-3h9.6L40 24z"/></svg>
+                    </div>
+                    <span class="skill-name">CSS3/SCSS</span>
+                </div>
+                <div class="skill-tile glass-card" data-tip="ES6+, SPA, оптимизация">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg js"><rect rx="14" ry="14" width="64" height="64" fill="#facc15" opacity="0.25"/><text x="50%" y="55%" text-anchor="middle" font-size="28" font-weight="800" fill="#facc15">JS</text></svg>
+                    </div>
+                    <span class="skill-name">JavaScript</span>
+                </div>
+                <div class="skill-tile glass-card" data-tip="Статическая типизация, большие проекты">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg ts"><rect rx="14" ry="14" width="64" height="64" fill="#60a5fa" opacity="0.25"/><text x="50%" y="55%" text-anchor="middle" font-size="26" font-weight="800" fill="#60a5fa">TS</text></svg>
+                    </div>
+                    <span class="skill-name">TypeScript</span>
+                </div>
+                <div class="skill-tile glass-card" data-tip="Компонентный подход, хуки, экосистема">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg react"><rect rx="14" ry="14" width="64" height="64" fill="#22d3ee" opacity="0.18"/><circle cx="32" cy="32" r="6" fill="#22d3ee"/><ellipse cx="32" cy="32" rx="22" ry="9" fill="none" stroke="#22d3ee" stroke-width="2"/><ellipse cx="32" cy="32" rx="22" ry="9" transform="rotate(60 32 32)" fill="none" stroke="#22d3ee" stroke-width="2"/><ellipse cx="32" cy="32" rx="22" ry="9" transform="rotate(-60 32 32)" fill="none" stroke="#22d3ee" stroke-width="2"/></svg>
+                    </div>
+                    <span class="skill-name">React</span>
+                </div>
+                <div class="skill-tile glass-card" data-tip="Сервер на JS, REST, микросервисы">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg node"><rect rx="14" ry="14" width="64" height="64" fill="#34d399" opacity="0.18"/><text x="50%" y="55%" text-anchor="middle" font-size="22" font-weight="800" fill="#34d399">Node</text></svg>
+                    </div>
+                    <span class="skill-name">Node.js</span>
+                </div>
+                <div class="skill-tile glass-card" data-tip="Скриптинг, API, автоматизация">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg py"><rect rx="14" ry="14" width="64" height="64" fill="#60c2ff" opacity="0.18"/><text x="50%" y="55%" text-anchor="middle" font-size="22" font-weight="800" fill="#60c2ff">Py</text></svg>
+                    </div>
+                    <span class="skill-name">Python</span>
+                </div>
+                <div class="skill-tile glass-card" data-tip="Веб-бекенд, CMS, интеграции">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg php"><rect rx="14" ry="14" width="64" height="64" fill="#a78bfa" opacity="0.18"/><text x="50%" y="55%" text-anchor="middle" font-size="22" font-weight="800" fill="#a78bfa">PHP</text></svg>
+                    </div>
+                    <span class="skill-name">PHP</span>
+                </div>
+                <div class="skill-tile glass-card" data-tip="Документы, агрегирования, Atlas">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg mongo"><rect rx="14" ry="14" width="64" height="64" fill="#34d399" opacity="0.18"/><text x="50%" y="55%" text-anchor="middle" font-size="18" font-weight="800" fill="#34d399">Mongo</text></svg>
+                    </div>
+                    <span class="skill-name">MongoDB</span>
+                </div>
+                <div class="skill-tile glass-card" data-tip="Дизайн-макеты, прототипы, компоненты">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg figma"><rect rx="14" ry="14" width="64" height="64" fill="#fb7185" opacity="0.18"/><text x="50%" y="55%" text-anchor="middle" font-size="22" font-weight="800" fill="#fb7185">F</text></svg>
+                    </div>
+                    <span class="skill-name">Figma</span>
+                </div>
+                <div class="skill-tile glass-card" data-tip="Контроль версий, Git Flow">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg git"><rect rx="14" ry="14" width="64" height="64" fill="#f43f5e" opacity="0.18"/><text x="50%" y="55%" text-anchor="middle" font-size="22" font-weight="800" fill="#f43f5e">Git</text></svg>
+                    </div>
+                    <span class="skill-name">Git</span>
+                </div>
+                <div class="skill-tile glass-card" data-tip="Темы, плагины, кастомизация">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg wp"><rect rx="14" ry="14" width="64" height="64" fill="#60a5fa" opacity="0.18"/><text x="50%" y="55%" text-anchor="middle" font-size="16" font-weight="800" fill="#60a5fa">WP</text></svg>
+                    </div>
+                    <span class="skill-name">WordPress</span>
+                </div>
+                <div class="skill-tile glass-card" data-tip="Исследование, прототипирование, UI‑системы">
+                    <div class="skill-logo" aria-hidden="true">
+                        <svg viewBox="0 0 64 64" class="logo-svg uiux"><rect rx="14" ry="14" width="64" height="64" fill="#a78bfa" opacity="0.18"/><text x="50%" y="55%" text-anchor="middle" font-size="18" font-weight="800" fill="#a78bfa">UI</text></svg>
+                    </div>
+                    <span class="skill-name">UI/UX</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Проекты</h2>
+                <p class="section-subtitle">Некоторые из моих последних работ</p>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card glass-card animate-on-scroll" 
+                data-title="Крипто-сайт" 
+                data-desc="Сайт для торговли криптовалютами с интеграцией телеграм-бота." 
+                data-tech="WordPress,PHP,MySQL,Telegram Bot,Python,JavaScript" 
+                data-images="assets/project0.jpg">
+                <div class="project-image">
+                    <img src="assets/protegra.png" alt="Крипто-сайт" loading="lazy">
+                    <button class="project-open" aria-label="Открыть галерею">Подробнее</button>
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Крипто-сайт</h3>
+                    <p class="project-desc">Сайт для торговли криптовалютами с интеграцией телеграм-бота.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">WordPress</span>
+                        <span class="tech-tag">PHP</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">Telegram Bot</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+            </article>
+                <article class="project-card glass-card animate-on-scroll" 
+                    data-title="Современный Интернет-магазин с реферальной системой" 
+                    data-desc="Полнофункциональная платформа электронной коммерции с современным интерфейсом и мощным бэкендом." 
+                    data-tech="WordPress,PHP,MySQL" 
+                    data-images="assets/project1.jpg">
+                    <div class="project-image">
+                        <img src="assets/project1.jpg" alt="Современный Интернет-магазин с реферальной системой" loading="lazy">
+                        <button class="project-open" aria-label="Открыть галерею">Подробнее</button>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Современный Интернет-магазин с реферальной системой</h3>
+                        <p class="project-desc">Полнофункциональная платформа электронной коммерции с современным интерфейсом и мощным бэкендом.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass-card animate-on-scroll" 
+                    data-title="Интернет-магазин спортивных добавок" 
+                    data-desc="Интернет-магазин спортивных добавок с системой индивидуальных инструкторов по питанию." 
+                    data-tech="Vue.js,Express,Socket.io" 
+                    data-images="assets/project2.jpg">
+                    <div class="project-image">
+                        <img src="assets/project2.jpg" alt="Интернет-магазин спортивных добавок" loading="lazy">
+                        <button class="project-open" aria-label="Открыть галерею">Подробнее</button>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Интернет-магазин спортивных добавок</h3>
+                        <p class="project-desc">Интернет-магазин спортивных добавок с системой индивидуальных инструкторов по питанию.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">WebSocket</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass-card animate-on-scroll" 
+                    data-title="Корпоративный сайт Birlik" 
+                    data-desc="Комплексная корпоративная система с управлением контентом и интеграцией с обучающей платформой." 
+                    data-tech="WordPress,PHP,MySQL" 
+                    data-images="assets/project3.jpg">
+                    <div class="project-image">
+                        <img src="assets/project3.jpg" alt="Корпоративный сайт Birlik" loading="lazy">
+                        <button class="project-open" aria-label="Открыть галерею">Подробнее</button>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Корпоративный сайт "Birlik"</h3>
+                        <p class="project-desc">Комплексная корпоративная система с управлением контентом и интеграцией с обучающей платформой.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass-card animate-on-scroll" 
+                    data-title="Корпоративный сайт Agronexus.kz" 
+                    data-desc="Корпоративный сайт с адаптивным дизайном и CMS для удобного управления контентом." 
+                    data-tech="HTML,CSS,JavaScript" 
+                    data-images="assets/Agronexus.kz.png">
+                    <div class="project-image">
+                        <img src="assets/Agronexus.kz.png" alt="Корпоративный сайт Agronexus.kz preview" loading="lazy">
+                        <button class="project-open" aria-label="Открыть галерею">Подробнее</button>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Корпоративный сайт Agronexus.kz</h3>
+                        <p class="project-desc">Корпоративный сайт с адаптивным дизайном и CMS для удобного управления контентом.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass-card animate-on-scroll" 
+                    data-title="Обучающая платформа для школы программирования" 
+                    data-desc="Обучающая платформа для оффлайн школы программирования с личными кабинетами, системой курсов, тестированием и аналитикой. Современный дизайн, адаптив, интеграция с платежами." 
+                    data-tech="React,Node.js,PostgreSQL" 
+                    data-images="assets/project4.png">
+                    <div class="project-image">
+                        <img src="assets/project4.png" alt="Обучающая платформа для школы программирования preview" loading="lazy">
+                        <button class="project-open" aria-label="Открыть галерею">Подробнее</button>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Обучающая платформа для школы программирования</h3>
+                        <p class="project-desc">Обучающая платформа для оффлайн школы программирования с личными кабинетами, системой курсов, тестированием и аналитикой. Современный дизайн, адаптив, интеграция с платежами.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass-card animate-on-scroll" 
+                    data-title="Сайт афиша концертов Гастрольной компании" 
+                    data-desc="Сайт афиша концертов — это современная платформа для поиска и бронирования билетов на концерты, фестивали и другие культурные события." 
+                    data-tech="WordPress,PHP,MySQL,JavaScript," 
+                    data-images="assets/project5.jpg">
+                    <div class="project-image">
+                        <img src="assets/project5.jpg" alt="Сайт афиша концертов Гастрольной компании preview" loading="lazy">
+                        <button class="project-open" aria-label="Открыть галерею">Подробнее</button>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Сайт афиша концертов Гастрольной компании</h3>
+                        <p class="project-desc">Сайт афиша концертов — это современная платформа для поиска и бронирования билетов на концерты, фестивали и другие культурные события.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="project-card glass-card animate-on-scroll" 
+                    data-title="Сайт-визитка Рекламного агенства" 
+                    data-desc="Сайт-визитка рекламного агентства — это современный одностраничный сайт с презентацией услуг, портфолио работ, калькулятором стоимости услуг и удобными формами обратной связи." 
+                    data-tech="WordPress,PHP,MySQL,JavaScript" 
+                    data-images="assets/project6.jpg">
+                    <div class="project-image">
+                        <img src="assets/project6.jpg" alt="Сайт-визитка Рекламного агенства preview" loading="lazy">
+                        <button class="project-open" aria-label="Открыть галерею">Подробнее</button>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Сайт-визитка Рекламного агенства</h3>
+                        <p class="project-desc">Сайт-визитка рекламного агентства — это современный одностраничный сайт с презентацией услуг, портфолио работ, калькулятором стоимости услуг и удобными формами обратной связи.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WordPress</span>
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Опыт работы и образование</h2>
+                <p class="section-subtitle">Ключевые этапы моего профессионального пути</p>
+            </div>
+
+            <div class="timeline-grid">
+                <!-- Work Experience -->
+                <div class="timeline-col glass-card">
+                    <div class="timeline-header">
+                        <span class="timeline-emoji">💼</span>
+                        <h3 class="timeline-title">Опыт работы</h3>
+                    </div>
+                    <div class="timeline">
+                        <article class="timeline-item">
+                            <div class="time">2018 — н.в.</div>
+                            <h4 class="role">Full Stack Web‑разработчик</h4>
+                            <div class="place">Частная практика</div>
+                            <div class="chips">
+                                <span class="chip">React</span>
+                                <span class="chip">Node.js</span>
+                                <span class="chip">UI/UX</span>
+                                <span class="chip">WordPress</span>
+                                <span class="chip">PHP</span>
+                                <span class="chip">JavaScript</span>
+                                <span class="chip">Python</span>
+                            </div>
+                        </article>
+                        <article class="timeline-item">
+                            <div class="time">2023 — н.в.</div>
+                            <h4 class="role">Руководитель учебного отдела</h4>
+                            <div class="place">Школа программирования «АЛГОРИТМИКА»</div>
+                            <div class="chips">
+                                <span class="chip">Mentoring</span>
+                                <span class="chip">Team Lead</span>
+                            </div>
+                        </article>
+                        <article class="timeline-item">
+                            <div class="time">2015 — 2023</div>
+                            <h4 class="role">UI/UX Designer & Web‑разработчик</h4>
+                            <div class="place">Фриланс</div>
+                            <div class="chips">
+                                <span class="chip">Figma</span>
+                                <span class="chip">WordPress</span>
+                                <span class="chip">JavaScript</span>
+                                <span class="chip">PHP</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="timeline-col glass-card">
+                    <div class="timeline-header">
+                        <span class="timeline-emoji">🎓</span>
+                        <h3 class="timeline-title">Образование</h3>
+                    </div>
+                    <div class="timeline">
+                        <article class="timeline-item">
+                            <div class="time">2018 — 2020</div>
+                            <h4 class="role">Web Development</h4>
+                            <div class="place">Szkoła Wschodnioeuropejska, Польша</div>
+                            <div class="chips">
+                                <span class="chip">Frontend</span>
+                                <span class="chip">Backend</span>
+                                <span class="chip">Database</span>
+                            </div>
+                        </article>
+                        <article class="timeline-item">
+                            <div class="time">2014 — 2018</div>
+                            <h4 class="role">Информационные системы</h4>
+                            <div class="place">Гуманитарно‑техническая академия, Казахстан</div>
+                            <div class="chips">
+                                <span class="chip">Программирование</span>
+                                <span class="chip">Базы данных</span>
+                                <span class="chip">Системный анализ</span>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Сертификаты</h2>
+                <p class="section-subtitle">Профессиональные курсы и аккредитации</p>
+            </div>
+
+            <div class="certs-grid">
+                <article class="cert-card glass-card project-card animate-on-scroll"
+                    data-title="Sololearn Certificate"
+                    data-desc="Web Development"
+                    data-tech="Frontend,Backend"
+                    data-images="assets/certificates/Web.png">
+                    <div class="cert-image project-image">
+                        <img src="assets/certificates/Web.png" alt="Web Development Certificate">
+                        <button class="cert-open project-open">Просмотр</button>
+                    </div>
+                    <div class="cert-meta project-content">
+                        <div class="cert-track">Sololearn</div>
+                        <h4 class="cert-title project-title">WEB DEVELOPMENT</h4>
+                        <div class="cert-footer">
+                            <span class="cert-year">2025</span>
+                            <span class="cert-badge">СЕРТИФИЦИРОВАН</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cert-card glass-card project-card animate-on-scroll"
+                    data-title="Sololearn Certificate"
+                    data-desc="Python Developer"
+                    data-tech="Python,Backend"
+                    data-images="assets/certificates/Python.png">
+                    <div class="cert-image project-image">
+                        <img src="assets/certificates/Python.png" alt="Python Developer Certificate">
+                        <button class="cert-open project-open">Просмотр</button>
+                    </div>
+                    <div class="cert-meta project-content">
+                        <div class="cert-track">Sololearn</div>
+                        <h4 class="cert-title project-title">PYTHON DEVELOPMENT</h4>
+                        <div class="cert-footer">
+                            <span class="cert-year">2024</span>
+                            <span class="cert-badge">СЕРТИФИЦИРОВАН</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cert-card glass-card project-card animate-on-scroll"
+                    data-title="Sololearn Certificate"
+                    data-desc="C# Development"
+                    data-tech="C#,Backend"
+                    data-images="assets/certificates/CSharp.png">
+                    <div class="cert-image project-image">
+                        <img src="assets/certificates/CSharp.png" alt="C# Development Certificate">
+                        <button class="cert-open project-open">Просмотр</button>
+                    </div>
+                    <div class="cert-meta project-content">
+                        <div class="cert-track">Sololearn</div>
+                        <h4 class="cert-title project-title">C# DEVELOPMENT</h4>
+                        <div class="cert-footer">
+                            <span class="cert-year">2023</span>
+                            <span class="cert-badge">СЕРТИФИЦИРОВАН</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cert-card glass-card project-card animate-on-scroll"
+                    data-title="Фронтенд разработчик"
+                    data-desc="Аналитика и основы фронтенда"
+                    data-tech="HTML,CSS,JS"
+                    data-images="assets/certificates/front.jpeg">
+                    <div class="cert-image project-image">
+                        <img src="assets/certificates/front.jpeg" alt="Frontend Start Certificate">
+                        <button class="cert-open project-open">Просмотр</button>
+                    </div>
+                    <div class="cert-meta project-content">
+                        <div class="cert-track">Айтилогия</div>
+                        <h4 class="cert-title project-title">FRONTEND</h4>
+                        <div class="cert-footer">
+                            <span class="cert-year">2022</span>
+                            <span class="cert-badge">СЕРТИФИЦИРОВАН</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cert-card glass-card project-card animate-on-scroll"
+                    data-title="Профессии в Digital"
+                    data-desc="Обзор направления и инструментов"
+                    data-tech="Digital,Product,Marketing"
+                    data-images="assets/certificates/digital.jpg">
+                    <div class="cert-image project-image">
+                        <img src="assets/certificates/digital.jpg" alt="Digital Professions Certificate">
+                        <button class="cert-open project-open">Просмотр</button>
+                    </div>
+                    <div class="cert-meta project-content">
+                        <div class="cert-track">Skillbox</div>
+                        <h4 class="cert-title project-title">Профессии в Digital</h4>
+                        <div class="cert-footer">
+                            <span class="cert-year">2021</span>
+                            <span class="cert-badge">СЕРТИФИЦИРОВАН</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="cert-card glass-card project-card animate-on-scroll"
+                    data-title="Специалист по информационной безопасности"
+                    data-desc="Информационная безопасность предприятия"
+                    data-tech="security,protection,IT"
+                    data-images="assets/certificates/Dr_web.png">
+                    <div class="cert-image project-image">
+                        <img src="assets/certificates/Dr_web.png" alt="UI/UX Advanced Certificate">
+                        <button class="cert-open project-open">Просмотр</button>
+                    </div>
+                    <div class="cert-meta project-content">
+                        <div class="cert-track">Dr Web</div>
+                        <h4 class="cert-title project-title">Антивирусная защита предприятия</h4>
+                        <div class="cert-footer">
+                            <span class="cert-year">2020</span>
+                            <span class="cert-badge">СЕРТИФИЦИРОВАН</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="cert-card glass-card project-card animate-on-scroll"
+                data-title="Специалист по информационной безопасности"
+                data-desc="Информационная безопасность"
+                data-tech="Digital,security,protection,IT"
+                data-images="assets/certificates/security.jpg">
+                <div class="cert-image project-image">
+                    <img src="assets/certificates/security.jpg" alt="Digital Professions Certificate">
+                    <button class="cert-open project-open">Просмотр</button>
+                </div>
+                <div class="cert-meta project-content">
+                    <div class="cert-track">Интуит</div>
+                    <h4 class="cert-title project-title">Информационная безопасность</h4>
+                    <div class="cert-footer">
+                        <span class="cert-year">2016</span>
+                        <span class="cert-badge">СЕРТИФИЦИРОВАН</span>
+                    </div>
+                </div> 
+            </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Me Section -->
+    <section id="why" class="why">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Почему выбирают меня</h2>
+                <p class="section-subtitle">Коротко о ценности, которую вы получаете</p>
+            </div>
+
+            <div class="why-grid">
+                <article class="why-card glass-card animate-on-scroll">
+                    <div class="why-icon">⚡</div>
+                    <h3 class="why-title">Быстро и в срок</h3>
+                    <p class="why-text">Сдаю проекты вовремя, без задержек</p>
+                </article>
+                <article class="why-card glass-card animate-on-scroll">
+                    <div class="why-icon">👍</div>
+                    <h3 class="why-title">Качественно</h3>
+                    <p class="why-text">Внимание к деталям и тестирование</p>
+                </article>
+                <article class="why-card glass-card animate-on-scroll">
+                    <div class="why-icon">🎨</div>
+                    <h3 class="why-title">Современный дизайн</h3>
+                    <p class="why-text">UI/UX, который нравится пользователям</p>
+                </article>
+                <article class="why-card glass-card animate-on-scroll">
+                    <div class="why-icon">🤝</div>
+                    <h3 class="why-title">Индивидуальный подход</h3>
+                    <p class="why-text">Решения под ваши задачи</p>
+                </article>
+                <article class="why-card glass-card animate-on-scroll">
+                    <div class="why-icon">🔒</div>
+                    <h3 class="why-title">Надёжность</h3>
+                    <p class="why-text">Поддержка и сопровождение</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Отзывы клиентов</h2>
+                <p class="section-subtitle">Что говорят обо мне</p>
+            </div>
+
+            <div class="testi-grid">
+                <article class="testi-card glass-card animate-on-scroll">
+                    <blockquote class="testi-quote">«Отличный специалист! Всё быстро, красиво и понятно. Буду обращаться ещё.»</blockquote>
+                    <a href="#" class="testi-author">Анна, владелец магазина</a>
+                </article>
+                <article class="testi-card glass-card animate-on-scroll testi-featured">
+                    <blockquote class="testi-quote">«Профессиональный подход, всегда на связи, результат превзошёл ожидания!»</blockquote>
+                    <a href="#" class="testi-author">Игорь, предприниматель</a>
+                </article>
+                <article class="testi-card glass-card animate-on-scroll">
+                    <blockquote class="testi-quote">«Очень доволен сотрудничеством. Всё чётко, быстро и качественно!»</blockquote>
+                    <a href="#" class="testi-author">Мария, маркетолог</a>
+                </article>
+                <article class="testi-card glass-card animate-on-scroll">
+                    <blockquote class="testi-quote">«Понял задачу с полуслова, предложил лучшие решения и быстро их реализовал.»</blockquote>
+                    <a href="#" class="testi-author">Олег, предприниматель</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Связаться со мной</h2>
+                <p class="section-subtitle">Открыт к новым проектам и интересным предложениям</p>
+            </div>
+
+            <div class="contact-grid">
+                <article class="contact-card glass-card">
+                    <div class="contact-icon">📞</div>
+                    <h3 class="contact-title">Телефон</h3>
+                    <p class="contact-sub">+7 771 374‑61‑54</p>
+                    <a class="contact-link" href="tel:+77713746154">Позвонить</a>
+                </article>
+
+                <article class="contact-card glass-card">
+                    <div class="contact-icon">🟢</div>
+                    <h3 class="contact-title">WhatsApp</h3>
+                    <p class="contact-sub">Написать</p>
+                    <a class="contact-link" href="https://wa.me/77713746154" target="_blank" rel="noopener">Открыть</a>
+                </article>
+
+                <article class="contact-card glass-card">
+                    <div class="contact-icon">✈️</div>
+                    <h3 class="contact-title">Telegram</h3>
+                    <p class="contact-sub">@atures_666</p>
+                    <a class="contact-link" href="https://t.me/atures_666" target="_blank" rel="noopener">Открыть</a>
+                </article>
+
+                <article class="contact-card glass-card">
+                    <div class="contact-icon">📧</div>
+                    <h3 class="contact-title">Email</h3>
+                    <p class="contact-sub">atures2014@gmail.com</p>
+                    <a class="contact-link" href="mailto:atures2014@gmail.com">Написать</a>
+                </article>
+
+                <article class="qr-card glass-card">
+                    <img class="qr-image" src="assets/whatsapp-qr.png" alt="QR для быстрого перехода в WhatsApp" loading="lazy">
+                    <p class="qr-caption">Сканируйте для быстрого перехода в WhatsApp</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Федыняк Крыстиан. Все права защищены.</p>
+                <div class="footer-links">
+                    <a href="#">Developed by Kris</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Viewer Modal -->
+    <div id="project-viewer" class="project-viewer" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="viewer-backdrop" data-close></div>
+        <div class="viewer-dialog glass-card" role="document">
+            <button class="viewer-close" aria-label="Закрыть" data-close>✕</button>
+            <div class="viewer-media">
+                <img class="viewer-image" alt="Просмотр проекта">
+            </div>
+            <div class="viewer-meta">
+                <h3 class="viewer-title"></h3>
+                <p class="viewer-desc"></p>
+                <div class="viewer-tech"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

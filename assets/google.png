@@ -1,0 +1,31 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="googleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4285F4;stop-opacity:1" />
+      <stop offset="25%" style="stop-color:#EA4335;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FBBC05;stop-opacity:1" />
+      <stop offset="75%" style="stop-color:#34A853;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4285F4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон сертификата -->
+  <rect width="300" height="200" fill="url(#googleGrad)" rx="15"/>
+  
+  <!-- Логотип Google -->
+  <g transform="translate(150, 80)">
+    <circle cx="0" cy="0" r="30" fill="white"/>
+    <text x="0" y="8" font-family="Arial, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="#4285F4">G</text>
+  </g>
+  
+  <!-- Текст сертификата -->
+  <text x="150" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Digital Garage</text>
+  <text x="150" y="150" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Digital Marketing</text>
+  <text x="150" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">2019</text>
+  
+  <!-- Декоративные элементы -->
+  <polygon points="50,50 53,50 51.5,47" fill="white" opacity="0.3"/>
+  <polygon points="250,50 253,50 251.5,47" fill="white" opacity="0.3"/>
+  <polygon points="50,150 53,150 51.5,153" fill="white" opacity="0.3"/>
+  <polygon points="250,150 253,150 251.5,153" fill="white" opacity="0.3"/>
+</svg> 

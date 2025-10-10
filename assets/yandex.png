@@ -1,0 +1,28 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="yandexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF0000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#CC0000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Фон сертификата -->
+  <rect width="300" height="200" fill="url(#yandexGrad)" rx="15"/>
+  
+  <!-- Логотип Яндекс -->
+  <g transform="translate(150, 80)">
+    <rect x="-30" y="-20" width="60" height="40" fill="white" rx="8"/>
+    <text x="0" y="5" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#FF0000">Я</text>
+  </g>
+  
+  <!-- Текст сертификата -->
+  <text x="150" y="130" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">Веб-разработчик</text>
+  <text x="150" y="150" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Практикум</text>
+  <text x="150" y="170" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="white">2021</text>
+  
+  <!-- Декоративные элементы -->
+  <rect x="40" y="40" width="6" height="6" fill="white" opacity="0.3" rx="3"/>
+  <rect x="254" y="40" width="6" height="6" fill="white" opacity="0.3" rx="3"/>
+  <rect x="40" y="154" width="6" height="6" fill="white" opacity="0.3" rx="3"/>
+  <rect x="254" y="154" width="6" height="6" fill="white" opacity="0.3" rx="3"/>
+</svg> 
