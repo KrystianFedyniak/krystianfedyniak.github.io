@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap location (update domain if needed)
-Sitemap: https://your-domain.com/sitemap.xml
+Sitemap: https://krystianfedyniak.github.io/sitemap.xml
